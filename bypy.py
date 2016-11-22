@@ -311,7 +311,8 @@ HelpMarker = "Usage:"
 ## directories, for setting, cache, etc
 HomeDir = expanduser('~')
 # os.path.join() may not handle unicode well
-ConfigDir = HomeDir + os.sep + '.bypy'
+#ConfigDir = HomeDir + os.sep + '.bypy'
+ConfigDir = '.bypy'
 TokenFileName = 'bypy.json'
 TokenFilePath = ConfigDir + os.sep + TokenFileName
 SettingFileName= 'bypy.setting.json'
